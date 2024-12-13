@@ -6,6 +6,9 @@ OBJS = bbox.o cr.o env.o fbuf.o geo.o huprn.o husetup.o hutv.o isect.o \
 
 x = *
 
+CFLAGS += -fcommon
+LDFLAGS += -Wl,--allow-multiple-definition
+
 $(TARGET): $(OBJS)
 	$(CC) $(OBJS) $(CFLAGS) -o $(TARGET) $(LDFLAGS)
 

@@ -1,0 +1,65 @@
+# Compiled code and build artifacts
+*.o
+*.so
+*.a
+*.pyc
+*.pyo
+__pycache__/
+**/obj/
+**/build/
+*.exe
+*.dll
+*.lib
+*.out
+*.class
+*.ko    # Kernel modules
+*.elf   # Executable and Linkable Format
+*.bin   # Binary files
+
+# Additional compiled/object files
+*.o-opt
+*.srec
+*.hex
+*.ihx
+
+# Build directories and artifacts
+**/dist/
+**/Debug/
+**/Release/
+*.dsp
+*.vcproj
+*.sln
+*.icproj
+
+# Dependency directories
+**/node_modules/
+**/vendor/
+**/deps/
+
+# IDE and editor specific
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.vim
+
+# Logs and temporary output
+*.log
+sim.out
+sim.stats*
+*.tmp
+*~
+*.swp
+
+# Core dumps
+core.*
+
+# Keep these files (do NOT ignore)
+!*.tar.gz
+!*.tgz
+!*.bmp
+!*.png
+!*.jpg
+!*.gif
+!*.ico
+!*.icns
